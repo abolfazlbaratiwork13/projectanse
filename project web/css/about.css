@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/DUBAI-REGULAR.TTF');
+}
+@font-face {
+    font-family: 'mediom';
+    src: url('../fonts/DUBAI-BOLD.TTF');
+}
+.text-login{
+    font-family: fantasy;
+    position: absolute;
+    left: 650px;
+    top: 40px;
+}
+body{
+    position: relative;
+}
+.box-login{
+    position: relative;
+    position: absolute;
+    width: 410px;
+    height: 440px;
+    /* background-color: red; */
+    border: 1px dashed black;
+    border-radius: 30px;
+    top: 170px;
+    margin-left: 500px;
+    border-left-color:brown;
+    border-top-color: rgb(68, 68, 233);
+    border-right-color: rgb(197, 197, 12);
+    border-bottom-color:saddlebrown
+}
+.text-on-input{
+    position: absolute;
+    left: 60px;
+    font-family: 'regular';
+    font-size: 17px;  
+    top: 20px;  
+}
+.two-text-input{
+    position: absolute;
+    left: 60px;
+    font-family: 'regular';
+    font-size: 17px;
+    top: 110px;
+}
+::-webkit-input-placeholder .input-text{
+    font-family: 'regular';
+}
+.input-text{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    border: 1px salid rgb(71, 62, 62);
+    width: 300px;
+    height: 20px;
+}
+.input-two-text{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    border: 1px salid rgb(71, 62, 62);
+    width: 300px;
+    height: 20px;
+}
+.one-button{
+    background-color: transparent;
+   border-color: transparent;
+}
+.btn1{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    font-family: 'mediom';
+    background-color: transparent;
+    padding: 5px 20px;
+    font-size: 19px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+.one-animation{
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-position: left;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('../img/footer-bg.png');
+    animation-name: l;
+    animation-duration: 3s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    
+}
+@keyframes l{
+    0%{
+        top: 100px;
+    }
+    100%{
+        top: 500px;
+    }
+}

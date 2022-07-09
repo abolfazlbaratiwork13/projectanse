@@ -1,0 +1,1235 @@
+p h1 h2 h3 h4 h5 h6 a ul li{
+    font-size: 36px;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+#topweb{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/service-bg.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.piccher1{
+    width: 700px;
+    top: 70px;
+    position: absolute;
+    right: 0px;
+    height: 400px;
+}
+.piccher2{
+    width: 400px;
+    top: 100px;
+    position: absolute;
+    left: 800px;
+}
+.a-web{
+    font-size: 22px;
+    position: absolute;
+    top: 460px;
+    left: 50px;
+    background-color: rgb(223, 147, 6);
+    padding: 19px 30px;
+    border-radius: 60px;
+    font-family: 'Roboto';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.abot{
+    font-family: 'Roboto';
+    font-size: 17px;
+    top: 350px;
+    position: absolute;
+    color: aliceblue;
+    left: 50px;
+}
+.a-web:hover{
+    top: 470px;
+    left: 77px;
+    padding: 21px 56px;
+    transition: 0.5s all;
+}
+.a-web4:hover{
+    top: 1169px;
+    left: 605px;
+    padding: 19px 50px;
+    transition: 0.5s all;
+}
+.start{
+    font-size: 50px;
+    font-family: 'Roboto';
+    color: aliceblue;
+    left: 50px;
+    top: 70px;
+    position: absolute;
+}
+.list-home{
+    font-size: 20px;
+    position: absolute;
+    left: 160px;
+    font-family: 'Roboto';
+    top: 10px;
+}
+.list-home:hover{
+    top: 2px;
+    transition: 0.5s all;
+}
+.list-about{
+    font-size: 20px;
+    position: absolute;
+    left: 280px;
+    font-family: 'Roboto';
+    top: 10px;
+}
+.list-about:hover{
+    top: 14px;
+    transition: 0.5s all;
+}
+.list-servisec{
+    font-size: 20px;
+    position: absolute;
+    left: 390px;
+    font-family: 'Roboto';
+    top: 10px;
+}
+.list-servisec:hover{
+    top: 2px;
+    transition: 0.5s all;
+}
+.list-contact{
+    font-size: 20px;
+    position: absolute;
+    left: 574px;
+    font-family: 'Roboto';
+    top: 10px;
+}
+.list-contact:hover{
+    top: 14px;
+    transition: 0.5s all;
+}
+.list-login{
+    font-size: 20px;
+    position: absolute;
+    left: 705px;
+    top: 10px;
+    font-family: 'Roboto';
+}
+.list-login:hover{
+    top: 2px;
+    transition: 0.5s all;
+}
+.serch:hover{
+    width: 30px;
+    transition: 0.5s all;
+}
+@keyframes shadow1{
+    0%{
+        top: 450px;
+    }
+    100%{
+        top: 100px;
+    }
+}
+@keyframes shadow2{
+    0%{
+       top: 110px; 
+    }
+    100%{
+        top: 420px;
+    }
+}
+@keyframes shadow3{
+    0%{
+        top: 350px;
+    }     
+    100%{
+        top: 80px;
+    }
+}
+.shadow{
+    position: relative;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 90px;
+    height: 90px;
+    border-radius: 70%;
+    top: 450px;
+    left: 380px;
+    animation-name: shadow1;
+    animation-duration: 1.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.shadow2{
+    position: relative;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 90px;
+    height: 90px;
+    border-radius: 70%;
+    top: 70px;
+    left: 730px;
+    animation-name: shadow2;
+    animation-duration: 1.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+.shadow3{
+    position: relative;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 90px;
+    height: 90px;
+    border-radius: 70%;
+    top: 490px;
+    left: 1180px;
+    animation-name: shadow3;
+    animation-duration: 1.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.web-buttn-top-web{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.web-buttn-top-web h1{
+    position: absolute;
+    left: 460px;
+    top: 94px;
+    font-family: 'Noto Sans';
+}
+.hr1{
+    color: orangered;
+    width: 300px;
+    position: absolute;
+    left: 60px;
+}
+.piccher3{
+    position: absolute;
+    top: 250px;
+    left: 260px;
+}
+.web-buttn-top-web h3{
+    position: absolute;
+    top: 650px;
+    left: 90px;
+    font-family: 'Roboto';
+}
+.ee{
+    position: absolute;
+    left: 500px;
+}
+.a-web2{
+    font-size: 18px;
+    position: absolute;
+    top: 800px;
+    left: 590px;
+    background-color: rgb(223, 147, 6);
+    padding: 20px 31px;
+    border-radius: 60px;
+    font-family: 'Roboto';
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.a-web2:hover{
+    top: 807px;
+    transition: 0.5s all;
+    padding-left: 60px;
+    padding-right: 60px;
+    left: 563px;
+}
+.serch{
+    position: absolute;
+    left: 810px;
+    top: 19px;
+}
+.services{
+    position: relative;
+    height: 1430px;
+    width: 100%;
+    background-image: url('../img/service-bg.png');
+}
+.services h1{
+    position: absolute;
+    font-family: 'Roboto';
+    top: 310px;
+    color: #fff;
+    left: 560px;
+}
+.hhe{
+    width: 170px;
+    left: 0px;
+    left: 18px;
+    position: absolute;
+    color: #fff;
+}
+.box1{
+    position: absolute;
+    position: relative;
+    background-color: red;
+    width: 340px;
+    height: 320px;
+    border-radius: 60px;
+    background-repeat: no-repeat;
+    top: 540px;
+    left: 80px;
+    background-size: cover;
+    background-image: url('../img/s-1.jpg');
+}
+.box2{
+    position: absolute;
+    position: relative;
+    background-color: black;
+    width: 340px;
+    height: 320px;
+    border-radius: 60px;
+    top: 220px;
+    background-size: cover;
+    left: 510px;
+    background-repeat: no-repeat;
+    background-image: url('../img/s-2.jpg');
+}
+.box3{
+    position: absolute;
+    position: relative;
+    background-color: black;
+    width: 340px;
+    height: 320px;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    top: -96px;
+    background-image: url('../img/s-3.jpg');
+    background-repeat: no-repeat;
+    left: 940px;
+}
+.box1 , .box2 , .box3{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.Business{
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+.sp1{
+    position: absolute;
+    top: 28px;
+    left: 10px;
+}
+.sp2{
+    position: absolute;
+    left: 130px;
+}
+.p1{
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    left: 100px;
+    top: 970px;
+    font-family: 'Roboto';
+}
+.sp3{
+    position: absolute;
+    top: 28px;
+    left: 5px;
+    
+}
+.Marketing{
+    position: absolute;
+    top: 900px;
+    left: 620px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+.p2{
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    left: 500px;
+    top: 970px;
+    font-family: 'Roboto';
+}
+.sp4{
+    position: absolute;
+    top: 70px;
+    left: 130px; 
+}
+.Financial{
+    position: absolute;
+    top: 900px;
+    left: 1080px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+/* .sp5{
+    position: absolute;
+    top: 70px;
+    left: 130px;  
+} */
+.p3{
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    left: 980px;
+    top: 970px;
+    font-family: 'Roboto';
+}
+.sp6{
+    position: absolute;
+    top: 70px;
+    left: 130px; 
+}
+.shadow4{
+    width : 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(170, 9, 9);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 38px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    animation-name: shadow4;
+    animation-duration: 3.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes  shadow4{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1200px;
+    }
+}
+.shadow5{
+    width : 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+    bottom: 70px;
+    right: 0px;
+    background-color: rgb(6, 136, 6);
+    border-radius: 50%;
+    right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 38px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    animation-duration: 3.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: shadow5;
+}
+ @keyframes  shadow5{
+    0%{
+        right: 0px;
+    }
+    100%{
+        right: 1200px;
+    }
+}
+.a-web4{
+    font-size: 22px;
+    position: absolute;
+    top: 1160px;
+    left: 600px;
+    background-color: rgb(223, 147, 6);
+    padding: 19px 30px;
+    border-radius: 60px;
+    font-family: 'Roboto';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.animation-v{
+    animation-duration: 6.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: v;
+}
+@keyframes v{
+    0%{
+        color: orangered;
+    }
+    20%{
+        color: yellow;
+    }
+    30%{
+        color: rgb(81, 255, 0);  
+    }
+    40%{
+        color: rgb(13, 216, 155);
+    }
+    50%{
+        color: rgba(7, 72, 146, 0.767);
+    }
+    60%{
+        color: rgb(176, 35, 219);
+    }
+    70%{
+        color: rgb(85, 32, 211);
+    }
+    87%{
+        color: rgb(131, 25, 87);
+    }
+    100%{
+        color: rgb(126, 3, 24);
+    }
+}
+.m-span{
+    animation-duration: 6.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: m;
+}
+@keyframes m{
+    0%{
+        left: 620px;
+    }
+    100%{
+        left: 500px;
+    }
+}
+.end-web{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.end-web h1{
+    position: absolute;
+    font-family: 'Roboto';
+    left: 420px;
+    top: 50px;
+}
+.love{
+    animation-name: love;
+    animation-duration: 2.1s;
+    transition: all 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes love {
+    0%{
+        width: 50px;
+        animation-duration: 2s;
+    }
+    100%{
+        width: 500px;
+    }
+}
+.p-senter{
+    animation-name: senter;
+    animation-duration: 3s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes senter{
+    0%{
+            color: rgb(202, 60, 8);
+    }
+    33%{
+            color: saddlebrown;
+    }
+    66%{
+            color: purple;
+    }
+    100%{
+            color: green;
+    }
+}
+.man{
+    width: 800px;
+    top: 190px;
+    left: 290px;
+    position: absolute;
+}
+.end-web h2{
+    position: absolute;
+    font-family: "Roboto";
+    top: 680px;
+    left: 100px;
+    font-size: 19px;
+}
+.or{
+    left: 340px;
+    top: 28px;
+}
+.end-web a{
+    font-size: 20px;
+    position: absolute;
+    left: 610px;
+    font-family: 'Roboto';
+    top: 790px;
+    background-color: orangered;
+    color: rgb(231, 223, 208);
+    padding: 15px 28px;
+    border-radius: 25px;
+    animation-direction: alternate;
+}
+.end-web a:hover{
+    transition: all 0.4s;
+    left: 574px;
+    top: 810px;
+    padding: 18px 45px;
+    border-radius: 60px;
+}
+.amar{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/service-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.amar h1{
+    position: absolute;
+    font-size: 33px;
+    color: #fff;
+    font-family: 'Roboto';
+    left: 564px;
+    top: 70px;
+}
+.amar h2{
+    color: #fff;
+    font-family: 'roboto';
+    font-size: 18px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+.veniam{
+    position: absolute;
+    left: 520px;
+}
+.a99{
+    font-family: 'roboto';
+    font-size: 32px;
+    top: 280px;
+    left: 130px;
+    color: #fff;
+    position: absolute;
+}
+.sa{
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 19px;
+    position: absolute;
+    left: 130px;
+    top: 340px;
+}
+.a4700{
+    font-family: 'roboto';
+    font-size: 32px;
+    top: 280px;
+    left: 450px;
+    color: #fff;
+    position: absolute;
+}
+.aw{
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 19px;
+    position: absolute;
+    left: 450px;
+    top: 340px;
+}
+.a4500{
+    font-family: 'roboto';
+    font-size: 32px;
+    top: 280px;
+    left: 750px;
+    color: #fff;
+    position: absolute;
+}
+.acl{
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 19px;
+    position: absolute;
+    left: 750px;
+    top: 340px;
+}
+.a19000{
+    font-family: 'roboto';
+    font-size: 32px;
+    top: 280px;
+    left: 1050px;
+    color: #fff;
+    position: absolute;
+}
+.adal{
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 19px;
+    position: absolute;
+    left: 1050px;
+    top: 340px;
+}
+.s{
+    position: absolute;
+    top: 320px;
+    left: 70px;
+    width: 50px;
+}
+.m{
+    position: absolute;
+    top: 320px;
+    left: 380px;
+    width: 50px; 
+}
+.mu{
+    position: absolute;
+    top: 320px;
+    left: 690px;
+    width: 50px; 
+}
+.bar{
+    position: absolute;
+    top: 320px;
+    left: 980px;
+    width: 50px; 
+}
+.Clients{
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+.chatbox{
+    top: 300px;
+    left: 410px;
+    width: 560px;
+    height: 230px;
+    position: relative;
+    position: absolute;
+    /* background-color: red; */
+    border: 1px solid rgb(173, 171, 171);;
+    border-radius: 12px;
+}
+.left{
+    background-color: rgb(36, 36, 150);
+    padding: 30px 30px;
+    position: absolute;
+    top: 430px;
+    left: 270px;
+    border-radius: 4px;
+}
+.left:hover{
+    transition: 0.5s all;
+    background-color: rgb(224, 224, 62);
+}
+.right:hover{
+    transition: 0.5s all;
+    background-color: rgb(224, 224, 62); 
+}
+.right{
+    border-radius: 4px;
+    background-color: rgb(36, 36, 150);
+    padding: 30px 30px;
+    position: absolute;
+    top: 327px;
+    left: 1040px;
+}
+.img-client{
+    position: absolute;
+    left: 400px;
+    padding: 10px 13px;
+    border-radius: 50%;
+    top: 600px;
+    background-color: rgb(90, 22, 90);
+}
+.Clients h2{
+    position: absolute;
+    font-family: 'noto sans';
+    left: 490px;
+    top: 580px;
+    font-size: 20px;
+}
+.Clients h3{
+    position: absolute;
+    font-family: 'noto sans';
+    left: 490px;
+    top: 620px;
+    color: rgb(10, 202, 202);
+    font-size: 17px;
+}
+.Contact-us{
+    width: 100%;
+    height: 800px;   
+    position: relative;
+}
+.Contact-us h1{
+    position: absolute;
+    font-family: 'Roboto';
+    left: 550px;
+    font-size: 43px;
+}
+.Contact-us h2{
+    position: absolute;
+    font-family: 'noto sans';
+    font-size: 18px;
+    top: 100px;
+    left: 350px;
+}
+.p-one{
+    position: absolute;
+    left: 100px;
+    top: 180px;
+    font-family: 'roboto';
+    font-size: 20px;
+}
+.one-it-text-Contact-us{
+    position: absolute;
+    top: 240px;
+    width: 520px;
+    height: 40px;
+    background-color: lightgray;
+    border-color: lightgray;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    left: 100px; 
+}
+.p-two{
+    position: absolute;
+    left: 700px;
+    top: 180px;
+    font-family: 'roboto';
+    font-size: 20px;
+}
+.two-it-text-Contact-us{
+    position: absolute;
+    top: 240px;
+    width: 520px;
+    height: 40px;
+    background-color: lightgray;
+    border-color: lightgray;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    left: 700px; 
+}
+.p-tree{
+    position: absolute;
+    left: 100px;
+    top: 280px;
+    font-family: 'roboto';
+    font-size: 20px;
+}
+.tree-it-text-Contact-us{
+    position: absolute;
+    top: 340px;
+    width: 520px;
+    height: 40px;
+    background-color: lightgray;
+    border-color: lightgray;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    left: 100px; 
+}
+.p-five{
+    position: absolute;
+    left: 700px;
+    top: 280px;
+    font-family: 'roboto';
+    font-size: 20px;
+}
+.five-it-text-Contact-us{
+    position: absolute;
+    top: 340px;
+    width: 520px;
+    height: 40px;
+    background-color: lightgray;
+    border-color: lightgray;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    left: 700px;  
+}
+.eshare{
+    position: absolute;
+    right: 0px;
+    top: 360px;
+    right: 120px;
+}
+.p-six{
+    position: absolute;
+    left: 100px;
+    top: 380px;
+    font-family: 'roboto';
+    font-size: 20px;
+}
+.six-it-text-Contact-us{
+    position: absolute;
+    top: 440px;
+    width: 1120px;
+    height: 140px;
+    background-color: lightgray;
+    border-color: lightgray;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    left: 100px;  
+}
+.two-it-text-Contact-us , .one-it-text-Contact-us , .tree-it-text-Contact-us , .five-it-text-Contact-us , .six-it-text-Contact-us{
+    border-radius: 10px;
+}
+.Contact-us a{
+    position: absolute;
+    font-family: 'roboto';
+    bottom: 0px;
+    bottom: 100px;
+    left: 590px;
+    font-size: 20px;
+    background-color: rgb(80, 22, 134);
+    color: white;
+    padding: 15px 50px;
+    border-radius: 40px;
+}
+.Contact-us a:hover{
+    bottom: 95px;
+    transition: 0.6s all;
+}
+.footer{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-image: url('../img/footer-bg.png');
+}
+.footer h1{
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 300px;
+    left: 50px;
+}
+.one-p-footer{
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 370px;
+    left: 50px;
+    font-size: 25px;
+}
+.one-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 482px;
+    left: 50px;
+    font-size: 20px;
+}
+.two-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 518px;
+    left: 50px;
+    font-size: 20px;
+}
+.foor-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 554px;
+    left: 50px;
+    font-size: 20px;
+}
+.five-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 590px;
+    left: 50px;
+    font-size: 20px;
+}
+.six-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 626px;
+    left: 50px;
+    font-size: 20px;
+}
+.one-lorem-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 482px;
+    left: 330px;
+    font-size: 18px;
+}
+.two-lorem-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 512px;
+    left: 330px;
+    font-size: 18px; 
+}
+.tree-lorem-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 542px;
+    left: 330px;
+    font-size: 18px;  
+}
+.foor-lorem-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 572px;
+    left: 330px;
+    font-size: 18px; 
+}
+.footer h2{
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 370px;
+    left: 550px;
+    font-size: 25px;
+}
+.one1-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 482px;
+    left: 575px;
+    font-size: 20px;
+}
+.two2-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 518px;
+    left: 575px;
+    font-size: 20px;
+}
+.foor3-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 554px;
+    left: 575px;
+    font-size: 20px;
+}
+.five4-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 590px;
+    left: 575px;
+    font-size: 20px;
+}
+.six5-a-footer{
+    position: absolute;
+    font-family: 'roboto';
+    position: absolute;
+    color: #fff;
+    top: 626px;
+    left: 575px;
+    font-size: 20px;
+}
+.clik-subscribe{
+    position: absolute;
+    right: 0px;
+    top: 770px;
+    font-family: 'roboto';
+    background-color: rgb(245, 188, 81);
+    padding: 14px 52px;
+    right: 120px;
+    color: #fff;
+    border-radius: 12px;
+}
+.subscribe{
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    background-color: #fff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    right: 0px;
+    top: 772px;
+    border-radius: 10px;
+    right: 340px;
+}
+::-webkit-input-placeholder.subscribe{
+    color: red;
+}
+.footer h3{
+    font-family: 'roboto';
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+    bottom: 75px;
+    color: #fff;
+}
+.one-img-footer-web{
+    position: absolute;
+    bottom: 0px;
+    width: 40px;
+    bottom: 74px;
+    left: 50px;
+}
+.two-img-footer-web{
+    position: absolute;
+    bottom: 0px;
+    width: 40px;
+    bottom: 74px;
+    left: 100px;
+}
+.tree-img-footer-web{
+    position: absolute;
+    bottom: 0px;
+    width: 40px;
+    bottom: 74px;
+    left: 152px;
+}
+.foor-img-footer-web{
+    position: absolute;
+    bottom: 0px;
+    width: 40px;
+    bottom: 74px;
+    left: 204px;
+}
+.mo{
+    animation-name: mo;
+    animation-duration: 2.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes mo{
+    0%{
+        left: 22px;
+    }
+    100%{
+        top: 260px;
+    }
+}
+.om{
+    animation-duration: 2.5s;
+    transition: all 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: om;
+    
+}
+@keyframes om{
+    0%{
+        left: 22px;
+    }
+    100%{
+        left: 300px;
+    }
+}
+.tt{
+    color: rgb(216, 60, 4); 
+    font-size: 72px;
+    animation-duration: 0.9s;
+    transition: all 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: tt;
+}
+@keyframes tt{
+    0%{
+        color: rgb(173, 53, 10);
+        top: 0px;
+    }
+    100%{
+        color: #fff;
+        top: 300px;
+    }
+}
+.box-animation{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    animation-name: box;
+    animation-duration: 4.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes box{
+    0%{
+        left: 100px;
+    }
+    100%{
+        left: 1200px
+    }
+}
+.qq{
+    animation-name: qq;
+    animation-duration: 1.5s;
+    transition: all 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes qq{
+    0%{
+        width: 2px;
+    }
+    100%{
+        color: orangered;
+        width: 200px;
+    }
+}
+.animation-end-web{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: name;
+    animation-duration: 3.1s;
+    transition: all 2.2s;
+    left: 200px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@keyframes name{
+    0%{
+        top: 0px;
+    }
+    45%{
+        left: 100px;
+    }
+    53%{
+        left: 20px;
+    }
+    67%{
+        left: 300px;
+    }
+    100%{
+        top: 900px;
+    }
+}

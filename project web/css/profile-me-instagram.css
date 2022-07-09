@@ -1,0 +1,155 @@
+
+a{
+    list-style-type: none;
+}
+.top-web{
+    position: relative;
+    height: 70px;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* border: red 1px solid; */
+}
+h1 , h2 , h3 , h4 , h5 , h5 , h6{
+    font-size: 19px;
+    font-family: 'Dancing Script';
+}
+.top-web h1{
+    font-size: 30px;
+    position: absolute;
+    left: 180px;
+    top: -10px;
+}
+.inp{
+    position: absolute;
+    left: 300px;
+}
+body{
+    background-color: #efefef;
+}
+.icon-home{
+    width: 36px;
+    position: absolute;
+    right: 0px;
+    right: 340px;
+    top: 14px;    
+}
+.nnamed{
+    width: 64px;
+    position: absolute;
+    right: 0px;
+    right: 270px;
+    top: 2px; 
+}
+.new-post{
+    width: 67px;
+    position: absolute;
+    right: 0px;
+    right: 210px;
+    top: -2px; 
+}
+.unnamed5{
+    width: 63px;
+    position: absolute;
+    right: 0px;
+    right: 150px;
+    top: 10px;
+}
+.me{
+    width: 41px;
+    position: absolute;
+    right: 0px;
+    right: 100px;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.az{
+    position: absolute;
+    left: 1006px;
+    top: 0px;
+    top: -2px;
+    font-size: 35px;
+    color: rgb(204, 7, 7);
+}
+.as{
+    position: absolute;
+    left: 1066px;
+    top: 0px;
+    top: -8px;
+    font-size: 35px;
+    color: rgb(204, 7, 7);
+}
+.me2{
+    width: 210px;
+    top: 120px;
+    left: 300px;
+    position: absolute;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    font-family: 'Thasadith';
+    left: 600px;
+    top: 130px;
+    font-size: 29px;
+}
+.btn1{
+    position: absolute;
+    left: 0px;
+    font-size: 13px;
+    top: 144px;
+    border: 1px solid black;
+    border-radius: 5px;
+    left: 810px;
+    padding: 9px 9px;
+    color: black;
+    font-family: 'roboto';
+}
+.setting{
+    width: 51px;
+    position: absolute;
+    left: 900px;
+    top: 152px;
+}
+.post{
+    position: absolute;
+    font-family: 'roboto';
+    left: 600px;
+    top: 200px;
+}
+.followers{
+    position: absolute;
+    font-family: 'roboto';
+    left: 685px;
+    top: 200px;
+}
+.following{
+    position: absolute;
+    font-family: 'roboto';
+    left: 830px;
+    top: 200px;
+}
+.name-insta{
+    position: absolute;
+    left: 600px;
+    font-family: 'roboto';
+    top: 250px;
+}
+.text-programming{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    position: absolute;
+    left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 290px;
+}
+.bb{
+    color: black;
+    position: absolute;
+    top: 200px;
+}
